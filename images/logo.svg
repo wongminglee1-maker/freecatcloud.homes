@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#7f00ff" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38ef7d" />
+      <stop offset="100%" stop-color="#11998e" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Glow Hexagon/Circle Container -->
+  <rect x="5" y="5" width="110" height="110" rx="28" fill="#0d1322" stroke="url(#cyberGradient)" stroke-width="2.5" />
+  
+  <!-- Orbital Ring -->
+  <ellipse cx="60" cy="62" rx="46" ry="18" fill="none" stroke="#00f2fe" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6" transform="rotate(-20 60 62)" />
+  <circle cx="98" cy="46" r="3" fill="#00f2fe" filter="url(#neonGlow)" />
+  <circle cx="22" cy="78" r="2.5" fill="#7f00ff" filter="url(#neonGlow)" />
+
+  <!-- Cyber Cat Silhouette -->
+  <!-- Left Ear -->
+  <polygon points="34,50 42,24 55,42" fill="url(#cyberGradient)" />
+  <polygon points="38,47 43,29 51,42" fill="#0d1322" />
+  <!-- Right Ear -->
+  <polygon points="86,50 78,24 65,42" fill="url(#cyberGradient)" />
+  <polygon points="82,47 77,29 69,42" fill="#0d1322" />
+
+  <!-- Cat Head Outline -->
+  <path d="M 38,48 C 38,48 48,54 60,54 C 72,54 82,48 82,48 C 88,58 90,72 84,84 C 78,96 68,98 60,98 C 52,98 42,96 36,84 C 30,72 32,58 38,48 Z" fill="#131b2e" stroke="url(#cyberGradient)" stroke-width="2.2" />
+
+  <!-- Cyber Cat Glowing Eyes -->
+  <polygon points="44,64 52,62 50,68 44,66" fill="#00f2fe" filter="url(#neonGlow)" />
+  <polygon points="76,64 68,62 70,68 76,66" fill="#00f2fe" filter="url(#neonGlow)" />
+
+  <!-- Nose & Mouth / Cloud Whiskers -->
+  <path d="M 58,74 L 62,74 L 60,77 Z" fill="#4facfe" />
+  <path d="M 60,77 Q 56,82 50,80 M 60,77 Q 64,82 70,80" fill="none" stroke="#4facfe" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Cyber Cloud Nodes / Whiskers -->
+  <line x1="28" y1="68" x2="42" y2="70" stroke="#00f2fe" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+  <line x1="26" y1="76" x2="40" y2="75" stroke="#00f2fe" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+  <line x1="92" y1="68" x2="78" y2="70" stroke="#00f2fe" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+  <line x1="94" y1="76" x2="80" y2="75" stroke="#00f2fe" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Center Energy Core / Lightning -->
+  <circle cx="60" cy="46" r="2" fill="#38ef7d" filter="url(#neonGlow)" />
+</svg>

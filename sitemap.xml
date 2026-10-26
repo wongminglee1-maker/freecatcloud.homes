@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://freecatcloud.homes/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Articles Hub -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Article 1: 自由猫深度评测 -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/ziyoumao-jichang-tuijian-pingce.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 2: Clash与ClashParty配置教程 -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/clash-jiedian-clashparty-peizhi-jiaocheng.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 3: 便宜机场与安全机场对比 -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/pianyi-jichang-vs-anquan-jichang-duibi.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 4: IEPL专线稳定节点原理 -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/wending-jiedian-quanqiu-jiasu-yuanli.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 5: ClashParty进阶与AI解锁 -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/clashparty-jichang-shiyong-jiqiao.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 6: 自由猫VPN安全加密与零日志 -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/ziyoumao-vpn-anquan-jiami-xieyi.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Article 7: 科学上网跨境出海全攻略 -->
+  <url>
+    <loc>https://freecatcloud.homes/articles/kexue-shangwang-chuhai-bikan-zhinan.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+</urlset>
